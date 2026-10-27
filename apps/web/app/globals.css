@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "./qs.css";
+
+@layer base {
+  a { color: var(--probe); }
+  a:hover { color: var(--probe-strong); }
+}

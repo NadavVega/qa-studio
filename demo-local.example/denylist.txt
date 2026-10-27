@@ -1,0 +1,1 @@
+# One term per line, case-insensitive. pnpm check:private fails if a tracked file contains any of them.

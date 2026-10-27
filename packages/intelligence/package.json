@@ -1,0 +1,15 @@
+{
+  "name": "@qa/intelligence",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@qa/core": "workspace:*",
+    "zod": "^4.6.7"
+  }
+}

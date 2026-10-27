@@ -1,0 +1,6 @@
+{
+  "defaultModel": "auto",
+  "datasets": {
+    "example": { "model": "openai-compatible:example-model", "localOnly": true }
+  }
+}

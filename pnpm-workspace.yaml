@@ -1,0 +1,8 @@
+packages:
+  - apps/*
+  - packages/*
+  - demo-local/apps/*
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true

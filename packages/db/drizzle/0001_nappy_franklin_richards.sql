@@ -1,0 +1,2 @@
+ALTER TABLE "test_results" ADD COLUMN "environment_id" uuid;--> statement-breakpoint
+ALTER TABLE "test_results" ADD CONSTRAINT "test_results_environment_id_environments_id_fk" FOREIGN KEY ("environment_id") REFERENCES "public"."environments"("id") ON DELETE set null ON UPDATE no action;
